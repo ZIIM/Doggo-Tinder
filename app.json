@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Mobile",
-    "slug": "Mobile",
+    "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd33d66e-5e93-41ab-ac32-9cb47aa92e71"
+      }
+    },
+    "owner": "ziiim"
   }
 }
